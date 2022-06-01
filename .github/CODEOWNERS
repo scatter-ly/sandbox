@@ -1,0 +1,4 @@
+*      @opencontextinc/reviewers
+/docs  @opencontextinc/docs-core
+/src   @opencontextinc/dev-core
+/config @aeschright @alchen99 
