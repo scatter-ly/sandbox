@@ -1,0 +1,17 @@
+apiVersion: opencontext.com/v1alpha1
+kind: Group
+metadata:
+  name: sandbox-eng
+  description: Sandbox Team
+spec:
+  type: team
+  profile:
+    displayName: Engineering Team
+    email: sandbox-eng@example.com
+    picture: https://avatars.dicebear.com/api/identicon/engineering@example.com.svg?background=%23fff&margin=2
+  parent: oc-inc
+  children: []
+  members:
+    - alice
+    - audrey
+    - jim
