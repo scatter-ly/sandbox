@@ -1,13 +1,4 @@
 apiVersion: opencontext.com/v1alpha1
-kind: Component
-metadata:
-  name: sandbox
-spec:
-  type: repository
-  lifecycle: other
-  owner: [user:audrey]
-  oncall1: @opencontextinc/dev-core
-apiVersion: opencontext.com/v1alpha1
 kind: CodeComponent
 metadata:
   name: sandbox
