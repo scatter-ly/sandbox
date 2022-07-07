@@ -7,4 +7,5 @@ spec:
   uri: https://github.com/opencontextinc/sandbox
   lifecycle: experimental
   owner: [oc-org]
+  isPageable: true
   oncall1: user:audrey
