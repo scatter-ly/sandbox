@@ -1,9 +1,7 @@
 apiVersion: opencontext.com/v1alpha1
-kind: CodeComponentSidecar
+kind: CodeComponent
 metadata:
-  name: sandbox-extras
+  name: sandbox
 spec:
-  codecomponent: sandbox
-  lifecycle: experimental
-  isPageable: true
-  oncall1: user:audrey
+  type: repository
+  uri: https://github.com/opencontextinc/sandbox/
