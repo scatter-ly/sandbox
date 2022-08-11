@@ -4,5 +4,5 @@ metadata:
   name: sandbox
 spec:
   type: repository
-  owner: [user:audrey]
+  owner: [engineering, product]
   uri: https://github.com/opencontextinc/sandbox/
