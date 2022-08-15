@@ -6,4 +6,4 @@ spec:
   codecomponent: sandbox
   lifecycle: experimental
   isPageable: true
-  oncall1: user:audrey
+  oncall1: user:jim
