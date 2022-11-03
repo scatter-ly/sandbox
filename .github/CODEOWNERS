@@ -2,3 +2,4 @@
 /docs   @opencontextinc/docs-core
 /src    @opencontextinc/dev-core
 /configs @aeschright @alchen99
+/functions/**/* @aeschright @alchen99
