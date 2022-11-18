@@ -3,3 +3,4 @@
 /src    @opencontextinc/dev-core
 /configs @aeschright @alchen99
 /functions/**/* @aeschright @alchen99
+/src/packages/frontend/deploy/engineering/aws/kafka/kube-node-lease/operator @aeschright
