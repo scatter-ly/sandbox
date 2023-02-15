@@ -5,5 +5,3 @@ metadata:
 spec:
   codecomponent: sandbox
   lifecycle: experimental
-  isPageable: true
-  oncall1: user:jim
