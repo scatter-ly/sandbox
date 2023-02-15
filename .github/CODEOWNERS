@@ -4,3 +4,4 @@
 /configs @aeschright @alchen99
 /functions/**/* @aeschright @alchen99
 /src/packages/frontend/deploy/engineering/aws/kafka/kube-node-lease/operator @aeschright
+/website @scatter-ly/docs-core @scatter-ly/reviewers
