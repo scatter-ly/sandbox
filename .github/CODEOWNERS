@@ -1,6 +1,6 @@
-*       @opencontextinc/reviewers @aeschright
-/docs   @opencontextinc/docs-core
-/src    @opencontextinc/dev-core
+*       @scatter-ly/reviewers @aeschright
+/docs   @scatter-ly/docs-core
+/src    @scatter-ly/dev-core
 /configs @aeschright @alchen99
 /functions/**/* @aeschright @alchen99
 /src/packages/frontend/deploy/engineering/aws/kafka/kube-node-lease/operator @aeschright
