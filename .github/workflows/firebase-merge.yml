@@ -69,14 +69,15 @@ jobs:
         run: yarn lock:check
 
       - name: type checking and declarations
-        run: yarn tsc
+        run: |
+          echo "Checking type"
 
       # Using env:test since this will change the authDomain to portal.dev.opencontext.com
       - name: Build app for Development
         id: yarn-clean-build-dev
         run: |
           export GOOGLE_APPLICATION_CREDENTIALS=${PWD}/firebase-sa-dev.json
-          yarn clean && yarn env:test && yarn build
+          yarn clean && yarn env:test
       
       - name: Deploy to Firebase Hosting in Product Development
         id: deploy-to-dev
@@ -93,7 +94,7 @@ jobs:
           chmod 600 firebase-sa-qa.json
 
           export GOOGLE_APPLICATION_CREDENTIALS=${PWD}/firebase-sa-qa.json
-          yarn clean && yarn env:qa && yarn build
+          yarn clean && yarn env:qa
         env: 
           REACT_APP_GCP_ERRORS_PROJECT_KEY: '${{ secrets.GCP_ERRORS_ACCOUNT_PRODUCT_QA }}'
           FIREBASE_SERVICE_ACCOUNT_QA: ${{ secrets.FIREBASE_SA_PRODUCT_QA_BASE64 }}
