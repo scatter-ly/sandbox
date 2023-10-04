@@ -1,7 +1,0 @@
-apiVersion: opencontext.com/v1alpha1
-kind: CodeComponentSidecar
-metadata:
-  name: sandbox-extras
-spec:
-  codecomponent: sandbox
-  lifecycle: experimental
